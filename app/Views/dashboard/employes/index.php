@@ -230,7 +230,7 @@
                     table.ajax.reload(null, false);
                     sweetalert2('Berhasil mengubah data');
                 } else {
-                    sweetalert2('Gagal, penipsa kembali isian anda', 'error');
+                    sweetalert2('Gagal, periksa kembali isian anda', 'error');
                     $('div').removeClass("has-error");
                     $('#tnip').text('');
                     $('#tfullname').text('');
